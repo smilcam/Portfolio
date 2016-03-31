@@ -1,0 +1,234 @@
+@media only screen and (max-width: 1000px) {
+
+ body {
+     width:100%;
+     margin-left:0%;
+     margin-right:0%;
+     padding:0px; 
+     height:100vh;
+ }
+ /*NAV  BAR*/
+header {
+    height:110px;
+    width:100%;
+    margin: 0 auto;
+}
+ 
+.topBar {
+   list-style:none;
+    text-align:center;
+    width:100%;
+    font-family: 'Adamina', serif; 
+    line-height:9.5em;
+    margin: 0 auto;
+    height:110px;
+}
+ 
+.fontify {
+    font-size:45px;
+    text-align: center;
+    padding: 40px;
+    line-height: 28em;
+    margin-left:10%;
+    margin-top:15%;
+  
+} 
+ .br-fullpage-nav li .br-fullpage-nav-item{
+     margin-top: 10%;
+ }  
+ 
+ .navbar-collapse {
+    margin:0 auto;
+    width:110%;
+}
+ 
+ 
+ /*HOME PAGE*/
+.myFace {
+      height:55vh;
+      margin: 0 auto;
+      width:130%;
+      margin-top:5%;
+      text-align: center;
+      margin-left:-20%;
+      
+      
+  }  
+.samIAm {
+    width:100%;
+    margin-top:-3%;
+    
+   
+}
+
+.sam {
+    font-family: 'Adamina', serif;
+    font-size:50px; 
+    bottom:0;  
+}
+
+.samuel {
+    font-size:30px;
+    bottom: 1;
+}
+
+/*ABOUT ME    */
+    .aboutContainer {
+        margin-left:-25%;
+    }
+ .aboutHolder {
+        width:80%;
+        margin-left:10%;
+        padding-top:10px;      
+ }
+ .aboutHolder h1 {
+     font-size:8vh;
+     top: 30;
+ }
+    
+ .aboutHolder p {
+     font-size:2.5vh;
+     margin-top:5%;
+ } 
+   
+
+/*PROJECTS*/
+
+
+.projectHolder{
+    display:flex;
+    
+    align-items: flex-start;
+    flex-wrap:wrap;
+    width:100%;
+    margin-left:-19%;
+    height:100vh;
+}
+.myDojo
+{
+     width:23vh;
+    height:20vh;
+    margin-left:0%;
+    margin-top:0%;
+    margin-bottom:1%;
+}
+
+.myDojo img {
+    margin-left:10%;
+    margin-bottom:0%;
+     width:23vh;
+    height:20vh;
+    
+}
+.parent{
+     width:23vh;
+    height:20vh;
+    margin-left:40%;  
+    margin-bottom:-5%; 
+}
+.parent img {
+    margin-left:0%;
+    margin-bottom: 2%;
+    height:20vh;
+    width:23vh;
+}
+.child{
+   margin-left:-27.5%;
+   margin-top:-38%;
+   margin-bottom:5%;
+    height:22%;
+    width:55vh;
+}
+.portfolioText {
+    font-size:30px;
+    margin-top: 5%;
+    margin-left:3%;
+    margin-right:3%;
+}
+.topText {
+    font-size:30px;
+    margin-top: 4%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.journeyParent {
+    width:23vh;
+    height:20vh;
+   margin-right:0%;
+    margin-left:40%;
+    margin-top:15%
+}
+
+
+.journeyParent img {
+    margin-left:0%;
+    margin-bottom: 5%;
+    height:20vh;
+    width:23vh;
+}
+
+
+.jild{
+   margin-left:-72%;
+   margin-top:-6%;
+   margin-bottom:5%;
+    height:23%;
+    width:50vh; 
+}
+
+.assParent {
+    width:23vh;
+    height:20vh;
+    margin-right:0%;
+    margin-left:40%;
+    margin-top:-6%;
+    
+}
+
+.assParent img {
+   margin-left:0%;
+    margin-bottom: 5%;
+    height:20vh;
+    width:23vh;
+}
+
+.assild{ 
+   margin-left:-72%;
+   margin-top:-4%;
+   margin-bottom:5%;
+    height:20%;
+    width:50vh; 
+}
+
+
+
+/*CONTACT ME*/
+.contactLine {
+    text-align: center;
+}
+
+.contactHeader {
+    font-size:5vh;
+    margin-top:10vh;
+}
+
+.myEmail {
+    font-size:3.5vh;  
+}
+
+.github{ 
+    width:100px;
+    height:100px; 
+}  
+
+.socialIcons{
+    margin-top:-5%;
+    height:100px;
+    box-sizing: border-box;
+  
+}
+
+  
+    
+} /*END*/

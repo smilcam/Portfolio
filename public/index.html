@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html ng-app ="Dojo">
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" type="text/css" href="mobile.css">
+   <link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>    
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+
+   
+<meta charset="UTF-8">
+<title>SHM Design</title>
+</head>
+<header> 
+    <div class="navbar-collapse">
+            <ul class="navbar-nav topBar">
+                <li>
+                    <a class="fontify" fullpage-href="page1">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a class="fontify" fullpage-href="page2">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a class="fontify" fullpage-href="page3">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a class="fontify" fullpage-href="page4">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div> 
+
+</header>
+    
+    
+<body>
+
+<fullpage class="instant-size" page-class="page">
+    <section class="page" id="page1">
+        <section class="container">
+            
+            <div class="myFace">
+                </div>
+                <div class="samIAm">
+                <h1 class="sam"> I AM SAM </h1>
+                <h3 class ="sam samuel"> WEB DEVELOPER I AM </h3>
+                </div>   
+
+        </section>
+    </section>
+    <section class="page" id="page2">
+        <section class="container">
+                 <!--<h1 class="aboutME"> ABOUT ME </h1>-->
+            <div class="aboutContainer"> 
+            
+  <div class="aboutHolder">
+    <h1> About Me </h1>
+    <p class="insideText">I am a web developer who believes in simplicity and clean design. I want users to leave your website with a clear impression of the company you are and also have an erge to come back. Before I became a web developer I worked with them and unfortunately only had bad experiences. So my goal is to make the process of building a website as simply and easy as possible. I will answer every question you have, keep you updated on all progress made, and make deadlines. I want you to leave feeling satisfied and 100% proud of the product. I only work with one client at a time so each project gets the attention it deserves. </p>
+  
+  </div>  
+  </div>  
+        </section>
+    </section>
+    
+    <section class="page" id="page3">
+       
+        <section class="container">
+         
+                                               
+<div class="projectHolder">
+
+<div class='parent myDojo'>
+  <img src='./images/myDojo.jpg' alt='image'/>
+  <div class='child textDojo'>
+    <p class ="topText">The NO-CODE DOJO is a website that was designed for my personal pleasure. It allowed me to take the things I had been learning and make applications based on my own personal interests. Each App has a description of what it is and why I made it. <br>
+         <a href="https://nocodedojo.firebaseapp.com/#/">  View Project </a>
+    </p>
+  </div>
+</div>
+<div class='parent'>
+  <img src='./images/hotCurry.jpg' alt='image'/>
+  <div class='child'>
+    <p class ="topText">Sporby is a full-stack (MEAN) application created to fill a niche in the world of sport blogs. In the application I created 12 database collections in MongoDB for modification of each board. I also made sure that all posts are searchable, upvotable, commentable and filtered. <br>
+         <a> View Project </a>
+    </p>
+  </div>
+</div>
+
+
+<div class='journeyParent'>
+  <img src='./images/Hell.jpg' alt='image'/>
+  <div class='jild'>
+    <p class ="topText">Journey is a full-stack (MEAN) application created to monitor people’s emotional level while attending one of DevMounta.in’s boot camps. This site was a collaporative effort between myself and two other programmers. <br>
+         <a href="http://104.131.74.125:8004/#/login"> View Project </a>
+    </p>
+  </div>
+</div>
+
+
+<div class='assParent'>
+  <img src='./images/thatAss.jpg' alt='image'/>
+  <div class='assild'>
+    <p class ="portfolioText">Assentrik is a full-stack (MEAN) application that was created for the distribution of bamboo boxers. I had several meetings with the clients in order to have the website look and feel exactly the way they intended. <br>
+         <a> View Project </a>
+    </p>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+        </section>
+    </section>
+    <section class="page" id="page4">
+        <section class="container">
+            <div class="contactLine">
+            <h1 class="contactHeader"><strong>C o n t a c t</strong></h1>
+            <h1 class="singleLine">___</h1>
+            <h1 class="myEmail"> <a href="mailto:samuelhaws@gmail.com?Subject=Hello%20There" target="_top">Samuelhaws@gmail.com</a></h1>
+            </div>
+            <div class="socialIcons"> 
+                <a href="https://github.com/smilcam"> <img class="github" src = "./images/github-logo.png"></a>
+                    <a href="https://www.linkedin.com/in/samuelhaws"> <img class="github" src = "./images/linkedin-button.png"> </a>
+                    <a href="https://www.facebook.com/profile.php?id=600699993"> <img class="github" src = "./images/facebook-logo-button.png"></a>
+              </div>  
+        </section>
+    </section>
+</fullpage>
+
+
+
+
+
+             <!--ANGULAR-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    
+
+   <script src="https://cdn.firebase.com/libs/angularfire/1.1.4/angularfire.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+<script src="br-fullpage.min.js"></script>
+
+
+             <!--FIREBASE-->
+
+
+            <!--FULL PAGE-->
+
+<script src="js/app.js"></script>
+
+
+
+
+
+</body>
+
+</html>

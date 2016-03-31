@@ -1,0 +1,598 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+ 
+@import url(https://fonts.googleapis.com/css?family=Adamina);
+
+header {
+  margin: 0 auto;
+  text-align: center;
+  background-color:none;
+  height:51px;
+}
+body {
+    background-color:none;
+}
+@font-face {
+   font-family: Permanet Marker; 
+   src: url('PermanentMarker.ttf');
+} 
+
+
+section .class {
+ width:100%;   
+}
+
+
+.myFace {
+    height:40em;
+    width:90%;
+    background-image: url("./images/crazy.jpg");
+    background-size:90% 100%;
+    opacity:.1%;
+    margin:0 auto;   
+    margin-left:3%;
+    margin-top:5%;
+}
+
+.samIAm {
+    width:100%;
+    margin-top:-5%;
+    text-align: center;
+    bottom:20;
+     
+    /*background-color:#E0E0E0;*/
+}
+
+.sam {
+    font-family: 'Adamina', serif;
+    bottom:20;
+    
+}
+
+
+
+.top {
+    font-family: 'Lora', serif; 
+    font-size:25px;
+    margin-left:5%;
+    margin-right:5%;
+   text-decoration: none;
+}
+
+.top:hover {
+    text-decoration:underline;
+}
+
+.top:visited {
+   color:black;
+}
+.homeDiv {
+     height:32em;
+    width:60em;
+    background-image: url("./images/myPhoto.jpg");
+    background-size:60em 32em;
+    opacity:.1%;
+    margin:0 auto;
+    margin-top: 5%;
+    margin-left:32%;
+}
+
+
+.mainText {
+    size:30px;
+    font-family: Permanet Marker;
+    background-color:white;
+    width:80%;
+    margin-left: 39%;
+  margin-top:-6%;
+    
+}
+
+/*--------------PORTFOLIO---------------*/
+
+.projectHolder{
+    display:flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    display: -webkit-flex;
+     -webkit-flex-wrap: wrap;
+    flex-wrap:wrap;
+    height:100vh;
+    width:100%;
+}
+
+
+.journeyParent img{
+     display:flex;
+    flex-wrap:wrap;
+    -webkit-display:-webkit-flex;
+    -webkit-flex: 1 0 200px;
+    flex: 1 0 200px;
+     -webkit-flex-wrap: wrap;
+    width:60%;
+    height:50%;
+    margin-right:20%;
+    margin-left:60%;
+    margin-top:-10%;
+}
+.jild
+{
+    position: absolute;
+    margin-left:255px;
+    bottom: 10;
+    background-color: black;
+    opacity: 0.8;
+    display:none;
+    width:235px;
+    height:235px;
+    margin-top:-235px;
+    border-radius: 125px 125px;
+    position:absolute;
+    cursor: pointer;
+}
+.assParent img {
+    display:flex;
+    flex-wrap:wrap;
+     -webkit-display:-webkit-flex;
+    -webkit-flex: 1 0 200px;
+    flex: 1 0 200px;
+     -webkit-flex-wrap: wrap;
+    width:60%;
+    height:50%;
+    margin-right:20%;
+    margin-left:50%;
+    margin-top:-10%;
+}
+.assild
+{
+   position: absolute;
+    margin-left:214px;
+    bottom: 10;
+    background-color: black;
+    opacity: 0.8;
+    display:none;
+    width:235px;
+    height:235px;
+    margin-top:-235px;
+    border-radius: 125px 125px;
+    position:absolute;
+    cursor: pointer;
+}
+
+.parent img
+{
+    display:flex;
+    flex-wrap:wrap;
+     -webkit-display:-webkit-flex;
+    -webkit-flex: 1 0 200px;
+    flex: 1 0 200px;
+     -webkit-flex-wrap: wrap;
+    width:60%;
+    height:50%;
+    margin-left:50%;
+    margin-top:15%;
+}
+.myDojo img
+{
+    display:flex;
+    flex-wrap:wrap;
+     -webkit-display:-webkit-flex;
+    -webkit-flex: 1 0 200px;
+    flex: 1 0 200px;
+     -webkit-flex-wrap: wrap;
+    width:60%;
+    height:50%;
+    margin-right:20%;
+    margin-left:60%;
+    margin-top:15%;
+  
+}
+
+.child
+{
+   position: absolute;
+    margin-left:214px;
+    bottom: 10;
+    background-color: black;
+    opacity: 0.8;
+    display:none;
+    width:235px;
+    height:235px;
+    margin-top:-235px;
+    border-radius: 125px 125px;
+    position:absolute;
+    cursor: pointer;
+}
+.textDojo
+{
+   position: absolute;
+    margin-left:255px;
+    bottom: 10;
+    background-color: black;
+    opacity: 0.8;
+    display:none;
+    width:235px;
+    height:235px;
+    margin-top:-235px;
+    border-radius: 125px 125px;
+    cursor: pointer;
+}   
+
+.topText{
+     text-align: center;
+    font-family: 'Adamina', serif;
+    font-size:10px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:10%;
+    line-height: 1.8em;
+    color:white;  
+    opacity: 1;  
+}
+
+
+.portfolioText{
+    text-align: center;
+    font-family: 'Adamina', serif;
+    font-size:10px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:20%;
+    line-height: 1.8em;
+    color:white;  
+    opacity: 1;  
+}
+
+
+.mainContainer {
+    height:100vh;
+    width:120%;  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+.sporby { 
+   /*background-image: url("./images/curry.jpg");
+    background-size:100% 100%;*/
+    width:32%;
+    height:90%;
+    margin-bottom:5%;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px;
+    
+}
+.sporby:hover{
+   /*background-image: url("./images/curry.jpg");
+    background-size:100% 100%;*/
+    background:black;
+    opacity: .9;
+}
+
+.journey {
+  width:32%;
+  height:90%;
+   margin-bottom:5%;
+   background-color:white;
+   display:flex;
+   flex-wrap: wrap;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px; 
+    
+}
+.Trik {
+   width:32%;
+   height:90%;
+    margin-bottom:5%;
+    display:flex;
+    flex-wrap: wrap;
+   background-color:white;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px; 
+}
+.newProject {
+    width:32%;
+    height:45%;
+   background-color:white;
+   display:flex;
+   flex-wrap: wrap;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px; 
+}
+.newProjectTwo {
+    width:32%;
+    height:45%;
+   background-color:white;
+    display:flex;   
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px; 
+}
+.sprobyLogo {
+    height:100%;
+    width:100%;  
+}
+
+.journeyLogo {
+    height:30%;
+    width:100%;
+}
+
+
+/*----------CONTACT PAGE------------*/
+
+.title {
+  text-align: center;
+    padding-top: 20px;
+   font-family: Permanet Marker;
+   color:red;
+   font-size:45px;
+}
+
+.home {
+    color:white;
+    margin-top:-1%;
+    margin-left:8%;
+}
+
+
+
+.form {
+    margin:0 auto;
+    padding:0;
+    width:90%;
+    margin-left:15%;
+    margin-top:6%;
+   
+}
+
+.formInput {
+      border: 5px solid black;
+    padding: 10px;
+    background: rgba(230,230,230,1);
+    margin: 0 auto;
+    width: 250px;
+    margin-left:25%;
+    bottom:-50;
+}
+.topper{
+    margin-left:5%;
+}
+
+.middle {
+    margin-left:4.5%;
+}
+
+.bottom {
+    margin-left:4%;
+}
+
+
+.fields {
+   
+   font-family: Permanet Marker;
+   font-size:20px;
+}
+
+.name{
+    margin-left: 5.5%;
+    
+}
+
+.email {
+    margin-left:3%;
+}
+
+
+.btnSend {
+    background: red;
+	padding:10px 13px;
+	color:black;
+	 font-family: Permanet Marker;
+	font-size:18px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:1px solid black;
+    margin-left:43%;  
+}
+
+
+.btnReset {
+    background: red;
+	padding:10px 15px;
+	color:black;
+	 font-family: Permanet Marker;
+	font-size:18px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:1px solid black;
+    margin-left:5%;  
+}
+
+
+
+/*------------------------ABOUT PAGE------------------*/
+
+.aboutContainer {
+   height:100vh;
+    width:150%;
+    background-image: url("./images/coder.jpg");
+    background-size: 100% 100%;
+    margin-left:-20%;
+}
+.goDown {
+     height:10em;
+    width:100%;
+    background-image: url("./images/beachShit.jpg");
+    background-size: 100% 10em;
+    margin-top:15%;
+}
+
+.aboutHolder {
+    width:50%;
+    height:200px;
+   margin-left:22%;
+   padding-top:5px;
+    text-align: center;
+    color:black;
+    font-family: 'Adamina', serif;
+}
+
+.aboutHolder h1 {
+    color:white;
+    font-family: 'Adamina', serif;
+    margin-top:5%;
+}
+.insideText {
+    text-align: center;
+    font-family: 'Adamina', serif;
+    margin-left:5%;
+    margin-right:5%;
+    font-size:25px;
+   margin-top:6%;
+    line-height: 1.5em;
+    color:white;
+}
+
+/*CONTACT*/
+.contactLine {
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+    margin-top:15%;
+    margin-bottom:10%;
+}
+.contactHeader{
+   font-family: 'Adamina', serif;
+   font-size:50px;
+}
+
+.singleLine {
+    font-size:100px;
+    margin-top:-5%;
+}
+.myEmail {
+    font-size:30px;
+    text-decoration: underline;
+    margin-top:6%;
+    font-family: 'Adamina', serif;
+}
+
+.socialIcons {
+    width:100%;
+    text-align: center;
+}
+
+.github{
+    width:75px;
+    height:75px;
+}
+ /*NAVBAR*/
+.topBar {
+   list-style:none;
+   background-color:black;
+    text-align:center;
+    width:105%;
+    height:51px;
+    font-family: 'Adamina', serif;
+    margin-top:20%;    
+    line-height:4.5em;
+    display:flex;
+     display:-webkit-flex;
+     -webkit-justify-content: center;
+}
+
+
+
+.fontify{
+       font-family: 'Adamina', serif;
+       font-size: 20px;
+       color:#6699ef;    
+       display:flex;
+      -webkit-display:-webkit-flex;
+      -webkit-flex: 1 0 200px;
+       flex: 1 0 200px;
+       padding-left:20px;
+       padding-right:60px;
+       margin-left:-100%;
+}
+
+/*FULL PAGE*/
+.br-fullpage-wrapper{
+    display:none;
+    overflow:hidden;
+    position:relative
+}
+
+.br-fullpage{
+position:relative;
+width:100%;
+-webkit-transition:margin 1s cubic-bezier(0.25,.25,.25,.25);
+transition:margin 1s 
+cubic-bezier(0.25,.25,.25,.25);
+z-index:1;
+overflow:hidden
+}
+
+.br-fullpage-nav{
+ position:fixed;
+ list-style-type:none;
+}
+
+.br-fullpage-nav li{
+margin:0 auto;
+}
+
+.navbar-collapse {
+    margin-left:-40%;
+}
+
+.br-fullpage-nav li .br-fullpage-nav-item{
+    
+display:block;
+height:7px;
+border:thin solid;
+box-sizing:border-box;
+border-radius:7px;
+color:white;
+}
+
+.br-fullpage-nav li .br-fullpage-nav-item.active{
+  background-color:none;
+;}
+
+
+
+.icon-bar {
+    color:white;
+}
+
+.section {
+  text-align:center;
+  font-size: 3em;
+  color:white;
+  
+  /* This is important to make the button position relative to the section*/
+  position:relative;
+}
+
+
+/**
+Absolute in relation to the section
+*/
+#moveLeft{
+  top: 20px;
+  left: 20px;
+  position:absolute;
+  z-index:999;
+  font-size: 1em;
+  cursor:pointer;
+}
+
+
+
