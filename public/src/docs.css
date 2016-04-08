@@ -1149,12 +1149,12 @@ header {
 }
 
 /* Scrollspy demo on fixed height div */
-.scrollspy-example {
+/*.scrollspy-example {
   position: relative;
   height: 200px;
   margin-top: 10px;
   overflow: auto;
-}
+}*/
 
 .bs-example > .nav-pills-stacked-example {
   max-width: 300px;
@@ -1223,9 +1223,9 @@ header {
  */
 
 /* Responsive (scrollable) doc tables */
-.table-responsive .highlight pre {
+/*.table-responsive .highlight pre {
   white-space: normal;
-}
+}*/
 
 /* Utility classes table  */
 .bs-table th small,

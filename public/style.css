@@ -10,6 +10,7 @@ header {
 }
 body {
     background-color:none;
+    width:100%;
 }
 @font-face {
    font-family: Permanet Marker; 
@@ -18,27 +19,38 @@ body {
 
 
 section .class {
- width:100%;   
+ width:100%; 
+
 }
 
+section .container {
+    width:100vw;
+    margin-left:0;
+    padding: 0px;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left:0px;
+}
 
 .myFace {
-    height:40em;
-    width:90%;
+    height:55vh;
+    width:55%;
     background-image: url("./images/crazy.jpg");
     background-size:90% 100%;
     opacity:.1%;
-    margin:0 auto;   
-    margin-left:3%;
-    margin-top:5%;
+    margin-top:6%;
+    margin-left:20%;
+
 }
 
 .samIAm {
     width:100%;
-    margin-top:-5%;
+    position:absolute;
     text-align: center;
     bottom:20;
-     
+   
     /*background-color:#E0E0E0;*/
 }
 
@@ -90,29 +102,30 @@ section .class {
 /*--------------PORTFOLIO---------------*/
 
 .projectHolder{
-    display:flex;
+    /*display:flex;
     -webkit-justify-content: flex-start;
     justify-content: flex-start;
     display: -webkit-flex;
      -webkit-flex-wrap: wrap;
-    flex-wrap:wrap;
+    flex-wrap:wrap;*/
     height:100vh;
     width:100%;
 }
 
 
 .journeyParent img{
-     display:flex;
+     /*display:flex;
     flex-wrap:wrap;
     -webkit-display:-webkit-flex;
     -webkit-flex: 1 0 200px;
     flex: 1 0 200px;
-     -webkit-flex-wrap: wrap;
-    width:60%;
-    height:50%;
-    margin-right:20%;
-    margin-left:60%;
-    margin-top:-10%;
+     -webkit-flex-wrap: wrap;*/
+    width:65%;
+    height:100%;
+    margin: 0 17.5%;
+    
+    /*margin-right:20%;
+    margin-left:60%;*/
 }
 .jild
 {
@@ -126,26 +139,27 @@ section .class {
     height:235px;
     margin-top:-235px;
     border-radius: 125px 125px;
-    position:absolute;
     cursor: pointer;
 }
 .assParent img {
-    display:flex;
+    /*display:flex;
     flex-wrap:wrap;
      -webkit-display:-webkit-flex;
     -webkit-flex: 1 0 200px;
     flex: 1 0 200px;
-     -webkit-flex-wrap: wrap;
-    width:60%;
-    height:50%;
-    margin-right:20%;
-    margin-left:50%;
-    margin-top:-10%;
+     -webkit-flex-wrap: wrap;*/
+    width:65%;
+    height:100%;
+    margin: 0 17.5%;
+   
+    /*margin-right:20%;
+    margin-left:50%;*/
+    
 }
 .assild
 {
    position: absolute;
-    margin-left:214px;
+    margin-left:255px;
     bottom: 10;
     background-color: black;
     opacity: 0.8;
@@ -154,52 +168,52 @@ section .class {
     height:235px;
     margin-top:-235px;
     border-radius: 125px 125px;
-    position:absolute;
     cursor: pointer;
 }
 
 .parent img
 {
-    display:flex;
+    /*display:flex;
     flex-wrap:wrap;
      -webkit-display:-webkit-flex;
     -webkit-flex: 1 0 200px;
     flex: 1 0 200px;
-     -webkit-flex-wrap: wrap;
-    width:60%;
-    height:50%;
-    margin-left:50%;
-    margin-top:15%;
+     -webkit-flex-wrap: wrap;*/
+    width:65%;
+    height:100%;
+    margin: 0 17.5%;
+  
+     /*margin-right:20%;
+    margin-left:50%;*/
 }
 .myDojo img
 {
-    display:flex;
+    /*display:flex;
     flex-wrap:wrap;
      -webkit-display:-webkit-flex;
     -webkit-flex: 1 0 200px;
     flex: 1 0 200px;
-     -webkit-flex-wrap: wrap;
-    width:60%;
-    height:50%;
-    margin-right:20%;
-    margin-left:60%;
-    margin-top:15%;
+     -webkit-flex-wrap: wrap;*/
+    width:65%;
+    height:100%;
+    margin: 0 17.5%;
+     /*margin-right:20%;
+    margin-left:60%;*/
   
 }
 
 .child
 {
    position: absolute;
-    margin-left:214px;
+    margin-left:255px;
     bottom: 10;
     background-color: black;
     opacity: 0.8;
     display:none;
     width:235px;
-    height:235px;
+    height:235px; 
     margin-top:-235px;
     border-radius: 125px 125px;
-    position:absolute;
     cursor: pointer;
 }
 .textDojo
@@ -243,83 +257,27 @@ section .class {
 }
 
 
-.mainContainer {
-    height:100vh;
-    width:120%;  
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-}
-
-
-.sporby { 
-   /*background-image: url("./images/curry.jpg");
-    background-size:100% 100%;*/
-    width:32%;
-    height:90%;
-    margin-bottom:5%;
-    text-align: center;
-    display:flex;
-    flex-wrap: wrap;
-    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px;
-    
-}
-.sporby:hover{
-   /*background-image: url("./images/curry.jpg");
-    background-size:100% 100%;*/
-    background:black;
-    opacity: .9;
-}
-
-.journey {
-  width:32%;
-  height:90%;
-   margin-bottom:5%;
-   background-color:white;
-   display:flex;
-   flex-wrap: wrap;
-    text-align: center;
-    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px; 
-    
-}
-.Trik {
-   width:32%;
-   height:90%;
-    margin-bottom:5%;
-    display:flex;
-    flex-wrap: wrap;
-   background-color:white;
-    text-align: center;
-    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px; 
-}
-.newProject {
-    width:32%;
-    height:45%;
-   background-color:white;
-   display:flex;
-   flex-wrap: wrap;
-    text-align: center;
-    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px; 
-}
-.newProjectTwo {
-    width:32%;
-    height:45%;
-   background-color:white;
-    display:flex;   
-    flex-wrap: wrap;
-    text-align: center;
-    box-shadow: rgba(0,0,0,0.5) 0px 0px 20px; 
-}
-.sprobyLogo {
-    height:100%;
-    width:100%;  
-}
-
-.journeyLogo {
-    height:30%;
+.parent {
     width:100%;
+    height:20%;
+    margin-top:1%;
+    margin-bottom:0%;
+
 }
+
+.journeyParent {
+    width:100%;
+    height:20%;
+    margin-bottom:1%;
+    margin-top:1%;
+}
+
+.assParent {
+    width: 100%;
+    height:20%;
+}
+
+
 
 
 /*----------CONTACT PAGE------------*/
@@ -420,41 +378,36 @@ section .class {
 
 .aboutContainer {
    height:100vh;
-    width:150%;
+   width:100vw;
     background-image: url("./images/coder.jpg");
     background-size: 100% 100%;
-    margin-left:-20%;
-}
-.goDown {
-     height:10em;
-    width:100%;
-    background-image: url("./images/beachShit.jpg");
-    background-size: 100% 10em;
-    margin-top:15%;
+    
 }
 
 .aboutHolder {
     width:50%;
-    height:200px;
-   margin-left:22%;
+    height:80vh;
    padding-top:5px;
     text-align: center;
     color:black;
     font-family: 'Adamina', serif;
+    margin: 0 auto;
 }
 
 .aboutHolder h1 {
     color:white;
     font-family: 'Adamina', serif;
     margin-top:5%;
+    font-size:3.5em;
 }
 .insideText {
     text-align: center;
     font-family: 'Adamina', serif;
     margin-left:5%;
     margin-right:5%;
-    font-size:25px;
+    font-size:2em;
    margin-top:6%;
+   height:80vh;
     line-height: 1.5em;
     color:white;
 }
@@ -464,8 +417,8 @@ section .class {
     width:100%;
     margin:0 auto;
     text-align:center;
-    margin-top:15%;
-    margin-bottom:10%;
+    margin-top:30vh;
+    margin-bottom:2%;
 }
 .contactHeader{
    font-family: 'Adamina', serif;
@@ -474,12 +427,14 @@ section .class {
 
 .singleLine {
     font-size:100px;
-    margin-top:-5%;
+    line-height: .5em;
+    margin-bottom:4%;
+  
 }
 .myEmail {
     font-size:30px;
     text-decoration: underline;
-    margin-top:6%;
+    margin-top:3%;
     font-family: 'Adamina', serif;
 }
 
@@ -495,9 +450,9 @@ section .class {
  /*NAVBAR*/
 .topBar {
    list-style:none;
-   background-color:black;
+   background-color:white;
     text-align:center;
-    width:105%;
+    width:100%;
     height:51px;
     font-family: 'Adamina', serif;
     margin-top:20%;    
@@ -512,15 +467,26 @@ section .class {
 .fontify{
        font-family: 'Adamina', serif;
        font-size: 20px;
-       color:#6699ef;    
+       color:#737070;    
        display:flex;
       -webkit-display:-webkit-flex;
       -webkit-flex: 1 0 200px;
        flex: 1 0 200px;
        padding-left:20px;
        padding-right:60px;
-       margin-left:-100%;
+       float:left;   
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*FULL PAGE*/
 .br-fullpage-wrapper{
@@ -549,7 +515,13 @@ margin:0 auto;
 }
 
 .navbar-collapse {
-    margin-left:-40%;
+ width:100%;
+float:left;
+}
+
+.navbar-collapse{
+    padding-right:0px;
+    padding-right:0px;
 }
 
 .br-fullpage-nav li .br-fullpage-nav-item{
