@@ -66,6 +66,11 @@ header {
 
 /*ABOUT ME    */
 
+
+.section{
+    width:100%;
+}
+
  .aboutHolder {
         width:80%;
         margin-left:10%;
@@ -81,6 +86,9 @@ header {
      margin-top:5%;
  } 
    
+.view p {
+    font-size:20px;
+}   
 
 /*PROJECTS*/
 
